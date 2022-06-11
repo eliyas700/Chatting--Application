@@ -3,9 +3,8 @@ import { GrSend } from "react-icons/gr";
 import { FaUserCircle } from "react-icons/fa";
 function App() {
   return (
-    <div className="h-[90vh] w-[95%] mx-auto flex justify-between ">
-      <div className="w-[25%]"></div>
-      <div className="w-[75%] border-2 relative">
+    <div>
+      <div className="w-[75%] h-[90vh] mx-auto border-2 relative">
         <h1 className="bg-primary text-white text-xl py-3 pl-3 flex  items-center">
           User <FaUserCircle size={34} className="ml-2" />{" "}
         </h1>
